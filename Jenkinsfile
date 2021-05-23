@@ -1,12 +1,13 @@
 pipeline {
     agent any
-
-         stages ('Prepare Artifacts') {
-         steps {
-            sh '''
-            cd static
-            zip -r ../frontend.zip *
-            }
+    stages {
+         stage ('Prepare Artifacts') {
+           steps {
+               sh '''
+                  cd static
+                  zip -r ../frontend.zip *
+               '''
+           }
          }
     }
 }

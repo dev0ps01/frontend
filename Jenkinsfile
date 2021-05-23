@@ -8,5 +8,13 @@ pipeline {
                '''
            }
          }
+       stage('Upload Artifacts') {
+          steps {
+              sh '''
+
+                 curl -v -u admin:vamsi --upload-file frontend.zip http://172.31.9.137:8081/repository/frontend/frontend.zip
+              '''
+          }
+       }
     }
 }

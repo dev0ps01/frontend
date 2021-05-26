@@ -1,2 +1,2 @@
 @Library('todoapp')
-todoapp()
+todoapp("frontend")

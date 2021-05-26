@@ -1,7 +1,8 @@
 @Library('todoapp') _
-todoapp(
+todoapp (
          COMPONENT         : 'frontend',
          PROJECT_NAME      :"Todoapp",
-         SLAVE_LABEL       : "NODEJS",
-         SKIP_NEXUS_UPLOAD : false
+         SLAVE_LABEL       : "MASTER",
+         SKIP_NEXUS_UPLOAD : false,
+         APP_TYPE          :  "NGINX"
 )

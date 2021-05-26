@@ -1,2 +1,2 @@
 @Library('todoapp')
-pipeline()
+todoapp()

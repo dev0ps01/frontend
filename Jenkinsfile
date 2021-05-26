@@ -1,3 +1,0 @@
-@Library('roboshop')
-
-pipeline()

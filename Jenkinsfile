@@ -14,7 +14,7 @@ pipeline {
       stage ('upload artifact') {
         steps {
           sh '''
-           curl -v -u admin:vamsi --upload-file frontend.zip http://172.31.9.137:8081/repository/frontend1/frontend.zip
+           curl -f -v -u admin:vamsi --upload-file frontend.zip http://172.31.9.137:8081/repository/frontend1/frontend.zip
 
           '''
         }

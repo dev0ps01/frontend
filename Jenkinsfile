@@ -7,7 +7,7 @@ pipeline {
         steps {
 
            sh '''
-              zip  ./frontend.zip *
+              zip -r ./frontend.zip *
            '''
         }
       }

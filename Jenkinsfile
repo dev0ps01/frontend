@@ -3,7 +3,7 @@ pipeline {
   agent any
 
     stages {
-      stage ('prepare artifact')
+      stage ('prepare artifact') {
         steps {
 
            sh '''

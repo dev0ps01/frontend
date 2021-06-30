@@ -4,6 +4,7 @@ todo (
     COMPONENT     : 'frontend',
     PROJECT_NAME   : "todoapp",
     SLAVE_LABEL     : "NODEJS",
+    APP_TYPE        : "NGINX"
   )
 
 

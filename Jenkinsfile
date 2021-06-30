@@ -1,3 +1,3 @@
-@Library('todoapp') _
+@Library('todo') _
 
-todoapp()
+todo()

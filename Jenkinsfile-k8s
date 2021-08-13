@@ -21,15 +21,5 @@ pipeline {
                 '''
             }
         }
-
-        stage('Deploy to PROD Env') {
-            when {
-                environment name: 'ENV', value: 'prod'
-            }
-            steps {
-                sh 'echo ansible-playbook .....'
-            }
-        }
-
     }
 }
